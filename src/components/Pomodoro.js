@@ -23,7 +23,6 @@ class Pomodoro extends React.Component {
 Pomodoro.propTypes = {
   currentActivityTimeLeft: PropTypes.number.isRequired,
   currentActivityType: PropTypes.string.isRequired,
-  isPomodoroActive: PropTypes.bool.isRequired,
   handleClick: PropTypes.func.isRequired
 };
 

@@ -134,7 +134,6 @@ class App extends Component {
           <Pomodoro
             currentActivityTimeLeft={this.state.currentActivityTimeLeft}
             currentActivityType={this.state.currentActivityType}
-            isPomodoroActive={this.state.isPomodoroActive}
             handleClick={this.handleClick}
           />
         </div>
