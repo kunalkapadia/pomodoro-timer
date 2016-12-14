@@ -1,0 +1,37 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  color: #FFF;
+  background-color: #333333;
+}
+
+.pomodoro-clock {
+  border: 2px solid #226644;
+  border-radius: 50%;
+  margin: 20px auto;
+  width: 300px;
+  height: 300px;
+  line-height: 150px;
+  font-size: 4em;
+  cursor: pointer;
+}
+
+.counter-value {
+  font-size: 1.5em;
+}
+
+.btn:focus,.btn:active {
+  outline: none !important;
+}
+
+a {
+  color: #e81c4f;
+}
+
+a:hover{
+  text-decoration: none;
+}
